@@ -1,0 +1,36 @@
+.laogo a img {
+  margin-left: -6.5%;
+  height: 60px;
+  width: 187px;
+}
+
+label span {
+  color: red;
+}
+
+.row {
+  margin: 5%;
+  max-width: 85%;
+}
+.submit_button{
+  display: none;
+}
+.show {
+
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .laogo a img {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%);
+  }
+
+
+  .show {
+    display: inline-block;
+    visibility: visible;
+  }
+}
